@@ -1002,8 +1002,8 @@ if (typeof module !== 'undefined' && module.exports) {
 /* Chat Bubble (Trigger) */
 .frank-launcher {
   position: fixed;
-  bottom: var(--frank-launcher-bottom, 20px);
-  right: var(--frank-launcher-right, 20px);
+  bottom: var(--frank-launcher-bottom, 48px);
+  right: var(--frank-launcher-right, 48px);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
