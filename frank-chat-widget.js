@@ -1024,8 +1024,8 @@ if (typeof module !== 'undefined' && module.exports) {
 
 .frank-chat-bubble {
   position: relative;
-  width: 85px;
-  height: 85px;
+  width: 60px;
+  height:60px;
   background: transparent;
   border-radius: 50%;
   display: flex;
@@ -1142,9 +1142,9 @@ if (typeof module !== 'undefined' && module.exports) {
 
 .frank-locked-tooltip {
   position: absolute;
-  bottom: 95px;
+  bottom: 70px;
   right: auto;
-  left: 50%;
+  left: -24px;
   transform: translate(-50%, 8px);
   background: var(--bg-primary, #ffffff);
   color: var(--text-primary, #0f172a);
